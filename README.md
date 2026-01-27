@@ -8,19 +8,19 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/" target="_blank">
-    <img src="https://img.shields.io/badge/Paper-Legal--R1-red?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"/>
+    <img src="https://img.shields.io/badge/Paper-LegalOne-red?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"/>
   </a>
   <a href="https://your-website.com" target="_blank">
-    <img src="https://img.shields.io/badge/Website-Legal--R1-blue?style=flat-square&logo=world&logoColor=white" alt="Website"/>
+    <img src="https://img.shields.io/badge/Website-LegalOne-blue?style=flat-square&logo=world&logoColor=white" alt="Website"/>
   </a>
   <a href="https://huggingface.co/CSHaitao/LegalOne-1.7B" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging%20Face-Legal--R1--1.7B-yellow?style=flat-square&logo=huggingface&logoColor=white" alt="LegalOne-R1 1.7B"/>
+    <img src="https://img.shields.io/badge/Hugging%20Face-LegalOne--1.7B-yellow?style=flat-square&logo=huggingface&logoColor=white" alt="LegalOne-R1 1.7B"/>
   </a>
   <a href="https://huggingface.co/CSHaitao/LegalOne-4B" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging%20Face-Legal--R1--4B-yellow?style=flat-square&logo=huggingface&logoColor=white" alt="LegalOne-R1 4B"/>
+    <img src="https://img.shields.io/badge/Hugging%20Face-LegalOne--4B-yellow?style=flat-square&logo=huggingface&logoColor=white" alt="LegalOne-R1 4B"/>
   </a>
   <a href="https://huggingface.co/CSHaitao/LegalOne-8B" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging%20Face-Legal--R1--8B-yellow?style=flat-square&logo=huggingface&logoColor=white" alt="LegalOne-R1 8B"/>
+    <img src="https://img.shields.io/badge/Hugging%20Face-LegalOne--8B-yellow?style=flat-square&logo=huggingface&logoColor=white" alt="LegalOne-R1 8B"/>
   </a>
   <a href="https://huggingface.co/datasets/your-org/legal-dataset" target="_blank">
     <img src="https://img.shields.io/badge/Dataset-Legal%20Data-green?style=flat-square&logo=huggingface&logoColor=white" alt="Dataset"/>
@@ -46,18 +46,12 @@
 - **监督微调**：我们建立了一个模拟专业法律工作流程的代理系统Legal Agentic CoT Distillation (LEAD)，能够综合大规模、高一致性的推理轨迹，培养模型执行可靠推理的能力。
 - **强化学习**：采用多阶段课程学习，从简单到复杂逐步塑造推理能力，形成更内化、更自主的"法律思维"模式。
 
-<p align="center">
-  <img src="fig/performance.png" alt="性能对比" width="70%"/>
-</p>
 
 <p align="center">
   <img src="fig/overview.png" alt="LegalOne-R1 Overview" width="90%"/>
 </p>
 
 **LegalOne-8B** 在**法规解释、判例法推理、法律问答、文档起草**等任务上超越通用 LLM 和现有法律模型。在 **LexEval、JecQA** 等权威评测中，整体性能可媲美更大参数规模的通用模型（如 **DeepSeek-R1、Qwen3-Max**），并在部分任务上实现超越。尤其在**法律概念理解、法条记忆、多跳推理**等关键任务上，**LegalOne-8B** 达到了当前开源模型的**领先水平**。
-
-
-
 
 
 ---
@@ -171,6 +165,14 @@ LegalOne 的中期训练采用精心构建的混合语料库，整合通用数�
 **LegalKit**是一个实用且可扩展的法律领域大模型评测工具包，统一了以下流程：数据集适配、模型生成、离线 JSON 评测、LLM-as-Judge 评审，同时提供可选的轻量级 Web UI，方便非命令行用户操作。欢迎使用！我们呼吁更多贴合真实法律场景评测的数据集，并希望可以集成到 LegalKit 中。
 
 LegalOne系列模型在法律基础能力上表现突出，在LexEval、JecQA等测试集上，整体表现接近甚至超越参数规模显著更大的通用模型（如 DeepSeek-R1、GPT-5等）。详细的评测结果与实验分析请参见技术报告。
+
+### 性能对比
+
+<p align="center">
+  <img src="fig/performance.png" alt="性能对比" width="90%"/>
+</p>
+
+
 
 ### JecQA评测
 
