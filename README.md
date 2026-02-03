@@ -7,10 +7,10 @@
 </h1>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/" target="_blank">
+  <a href="https://www.arxiv.org/abs/2602.00642" target="_blank">
     <img src="https://img.shields.io/badge/Paper-LegalOne-red?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"/>
   </a>
-  <a href="https://your-website.com" target="_blank">
+  <a href="https://legalone-r1.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/Website-LegalOne-blue?style=flat-square&logo=world&logoColor=white" alt="Website"/>
   </a>
   <a href="https://huggingface.co/CSHaitao/LegalOne-1.7B" target="_blank">
@@ -33,6 +33,12 @@
 <p align="center">
   <a href="README_EN.md">📖 English</a> | <a href="README.md">📖 中文</a>
 </p>
+
+---
+
+## 📢 News
+
+- **[2025-02-03]** 我们发布了技术报告 **[LegalOne: A Family of Foundation Models for Reliable Legal Reasoning](https://arxiv.org/abs/2602.00642)** 🎉
 
 ---
 
@@ -409,11 +415,14 @@ LegalOne系列模型在法律基础能力上表现突出，在LexEval、JecQA等
 如果你觉得这项工作有用，请引用：
 
 ```bibtex
-@misc{legalone-2025,
-  title={LegalOne: A Family of Foundation Models for Reliable Legal Reasoning},
-  author={LegalOne Team},
-  year={2025},
-  url={https://github.com/CSHaitao/LegalOne}
+@misc{li2026legalonefamilyfoundationmodels,
+      title={LegalOne: A Family of Foundation Models for Reliable Legal Reasoning}, 
+      author={Haitao Li and Yifan Chen and Shuo Miao and Qian Dong and Jia Chen and Yiran Hu and Junjie Chen and Minghao Qin and Qingyao Ai and Yiqun Liu and Cheng Luo and Quan Zhou and Ya Zhang and Jikun Hu},
+      year={2026},
+      eprint={2602.00642},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.00642}, 
 }
 ```
 
