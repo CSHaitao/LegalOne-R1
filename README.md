@@ -38,7 +38,7 @@
 
 ## 📢 News
 
-- **[2025-02-03]** 我们发布了技术报告 **[LegalOne: A Family of Foundation Models for Reliable Legal Reasoning](https://arxiv.org/abs/2602.00642)** 🎉
+- **[2025-02-03]** 我们发布了技术报告 **[LegalOne: A Family of Foundation Models for Reliable Legal Reasoning](https://arxiv.org/abs/2602.00642)** 🎉 🎉 🎉 
 
 ---
 
